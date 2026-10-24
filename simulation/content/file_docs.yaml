@@ -1,0 +1,146 @@
+- name: meeting_notes_2026-10-14
+  sensitivity: internal
+  content: |-
+    # Weekly sync – 14 Oct
+
+    Attendees: Dana, Alex, Priya
+
+    - Onboarding flow beta moved to 24 Nov
+    - Vendor API limits: Alex to ask for a higher quota
+    - Decision: dashboards ship without export in the first pilot
+
+    Actions: Alex – quota request (Fri); Priya – update status doc (Mon)
+- name: meeting_notes_2026-10-21
+  sensitivity: internal
+  content: |-
+    # Weekly sync – 21 Oct
+
+    - Pilot customers: three confirmed, one pending contract
+    - Support volume up 12% after the release
+    - Risk: holiday staffing in December
+
+    Actions: Dana – confirm pending customer; Alex – draft staffing plan
+- name: design_spec_reporting_dashboard
+  sensitivity: internal
+  content: |-
+    # Reporting dashboard – design spec
+
+    ## Goals
+    Give account managers a single view of usage, invoices and open cases.
+
+    ## Non-goals
+    Custom report builder.
+
+    ## Data
+    Usage events (daily), invoices (hourly sync), support cases (near real time).
+
+    ## Open questions
+    - Should managers see restricted invoice notes? (Default: no)
+- name: design_spec_onboarding_flow
+  sensitivity: internal
+  content: |-
+    # Onboarding flow – design spec
+
+    Steps: 1) create workspace, 2) invite teammates, 3) connect data source, 4) sample report.
+    Success metric: 60% of new accounts reach step 4 within 48 hours. Current baseline: 41%.
+- name: retro_sprint_41
+  sensitivity: internal
+  content: |-
+    # Sprint 41 retro
+
+    **Went well:** faster code review, fewer rollbacks.
+    **Didn't:** flaky integration tests, unclear acceptance criteria.
+    **Try next:** pair on flaky tests; add acceptance criteria to every ticket.
+- name: retro_launch_postmortem
+  sensitivity: confidential
+  content: |-
+    # Launch retro (internal)
+
+    Timeline: release 09:00, elevated error rate 09:40, rollback 10:05. Root cause: config flag default flipped in production. Fixes: flag defaults reviewed in CI; staged rollout for config changes.
+- name: roadmap_draft_q1
+  sensitivity: confidential
+  content: |-
+    # Roadmap draft – Q1 (not for external sharing)
+
+    1. Reporting dashboard GA
+    2. Export improvements
+    3. SSO for enterprise tier
+    Dependencies: vendor API quota, security review.
+- name: research_notes_interviews
+  sensitivity: internal
+  content: |-
+    # Customer interview notes
+
+    Five interviews, common asks: easier data export, clearer pricing, scheduled reports. Quote: 'We spend Monday mornings copying numbers into slides.'
+- name: faq_pilot_program
+  sensitivity: public
+  content: |-
+    # Pilot program FAQ
+
+    **How long is the pilot?** Six weeks.
+    **Is there a cost?** No.
+    **Who do I contact for help?** The support desk, 09:00–18:00 IST on weekdays.
+    **Can I leave early?** Yes, any time, and your data is deleted within 30 days.
+- name: faq_expenses
+  sensitivity: internal
+  content: |-
+    # Expenses FAQ
+
+    Submit within 30 days. Receipts required above INR 500. Client meals need attendee names. Approvals go to your manager, then finance.
+- name: runbook_export_timeouts
+  sensitivity: internal
+  content: |-
+    # Runbook: export timeouts
+
+    1. Check gateway timeout metric.
+    2. If > 30 s for large accounts, ask customer to export by date range.
+    3. Escalate to tier 2 with the account ID and job ID.
+- name: runbook_oncall_handover
+  sensitivity: internal
+  content: |-
+    # On-call handover checklist
+
+    - Open incidents and owners
+    - Pending deploys
+    - Alerts silenced and why
+    - Customer escalations in flight
+- name: metrics_weekly_export
+  sensitivity: internal
+  content: |
+    week,signups,activated,support_cases
+    2026-W40,128,71,43
+    2026-W41,141,80,52
+    2026-W42,135,77,47
+- name: vendor_notes_helix
+  sensitivity: internal
+  content: |-
+    # Helix Office Supply – notes
+
+    Primary contact: accounts team. Payment terms: net 30. Quarterly review in January. Open item: confirm bulk discount threshold.
+- name: hiring_plan_q4
+  sensitivity: confidential
+  content: |-
+    # Hiring plan Q4
+
+    Open roles: 2 backend engineers, 1 designer, 1 support specialist. Budget approved; offers need director sign-off.
+- name: training_security_basics
+  sensitivity: public
+  content: |-
+    # Security basics
+
+    Use a password manager, enable MFA, lock your screen, report phishing to IT security. IT will never ask for your password.
+- name: launch_checklist_pilot
+  sensitivity: internal
+  content: |-
+    # Pilot launch checklist
+
+    [ ] Customer contracts signed
+    [ ] Support rota agreed
+    [x] Monitoring dashboards live
+    [ ] Rollback plan reviewed
+- name: travel_policy_summary
+  sensitivity: public
+  content: |-
+    # Travel policy summary
+
+    Economy class under 6 hours. Book through the portal. Hotel cap INR 9,000 per night in metro cities.

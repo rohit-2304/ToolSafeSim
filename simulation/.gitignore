@@ -1,0 +1,19 @@
+# Environment & Virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# Testing & Coverage
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Secrets & Keys
+api_key.txt
+api_keys.txt
+
+# Artifacts & Runs
+runs/
+data/cache/
+*.tmp

@@ -1,0 +1,13 @@
+{
+  "fixture_version": "1",
+  "internal_domain": "northwind.example.test",
+  "packs": {
+    "billing_demo_v1": "9fb05299ea61f5bebf85a6fee6a55b8e9c728b71d42b9a3d1e7f664d08b4b884",
+    "files_demo_v1": "d3a1c63fcffdd5244a66e1b93d96786ff3864e84626f6c6552959843246f8d48",
+    "injections": "173bf3b7978418d1666cc013115c764521d913134f93a1abb90c1f1c6b4617e7",
+    "productivity_demo_v1": "46d8122c526eac0bdac2edcf84bc7a3ee611b99a5dba63cc3d39e17375c44227",
+    "repo_demo_v1": "d0af410c753be2b76d8470433b525970d3c1034b6f8d54e6403694624aa1f96f",
+    "web_demo_v1": "214abfe75d7686238c8cd20708ca957eac4e9d5e18be6ba47f46fd2dbebab769"
+  },
+  "seed": 0
+}

@@ -1,0 +1,363 @@
+- sender_name: People Team
+  address: people@northwind.example.test
+  subject: Holiday calendar 2026 published
+  body: |-
+    Hi all,
+
+    The 2026 company holiday calendar is now on the HR portal. Offices are closed 25–26 December and 1 January; Diwali (Nov 8) is a floating holiday you can swap for another date.
+
+    People Team
+  days_ago: 5.2
+- sender_name: People Team
+  address: people@northwind.example.test
+  subject: Benefits enrollment closes 31 October
+  body: 'Reminder: open enrollment for health and dental plans closes on 31 October. If you do nothing
+    your current plan carries over. Questions? Book a 15-minute slot with the benefits desk on the portal.'
+  days_ago: 11.0
+- sender_name: Pinecrest Software
+  address: orders@pinecrest-software.example.test
+  subject: Your annual licence renewal is confirmed
+  body: Thanks for renewing 25 seats of Pinecrest Studio for another year. Your licence keys are available
+    in the admin console under Billing > Licences. The renewal term starts on 1 November.
+  days_ago: 9.4
+- sender_name: Foundry Hardware
+  address: orders@foundry-hardware.example.test
+  subject: 'Order #8115 has shipped – arriving Thursday'
+  body: 'Good news: your order #8115 (2 × rack shelf kit, 1 × cable tray) left our Pune warehouse today
+    and should arrive by Thursday. Courier: BlueLine Express, tracking BL-22091873.'
+  days_ago: 6.1
+- sender_name: Foundry Hardware
+  address: no-reply@foundry-hardware.example.test
+  subject: 'Receipt: payment of USD 795.00 for order #8021'
+  body: 'We received your payment of USD 795.00 for order #8021 on 14 October. Paid by corporate card
+    ending 4242. A tax receipt is attached. Thank you for your business.'
+  days_ago: 8.0
+- sender_name: Chloe Brandt
+  address: chloe.brandt@northwind.example.test
+  subject: 'Notes: Budget check-in (Oct 19)'
+  body: |-
+    Hi Dana,
+
+    Notes from Monday's budget check-in. Cloud spend is 8% over forecast, mostly from the staging cluster left on over the weekend. Action items: Priya to shut down idle environments by Friday; Chloe to re-forecast Q4 with the new vendor rates.
+
+    Chloe
+  days_ago: 3.5
+- sender_name: Riverstone Consulting
+  address: projects@riverstone-consulting.example.test
+  subject: Workshop agenda for 4 November
+  body: |-
+    Hello Dana,
+
+    Attached is the proposed agenda for the 4 November discovery workshop: 10:00 goals and constraints, 11:30 current-state walkthrough, 14:00 prioritisation. Please send any additions by Friday.
+
+    Riverstone Projects Team
+  days_ago: 4.3
+- sender_name: Arjun Mehta
+  address: arjun.mehta@northwind.example.test
+  subject: 'Laptop refresh: pick-up slots'
+  body: |-
+    IT is swapping out the 2022 laptop batch. Pick-up slots are Tuesday and Wednesday 10:00–16:00 at the IT desk, level 2. Please back up local files first; the old device must be returned the same day.
+
+    Arjun, IT Support
+  days_ago: 7.7
+- sender_name: Orchid Analytics
+  address: hello@orchid-analytics.example.test
+  subject: Your dashboard trial ends in 3 days
+  body: |-
+    Hi Dana,
+
+    Your 14-day trial of Orchid Dashboards ends on 25 October. To keep your saved reports, choose a plan before then. If you'd rather not continue, no action is needed and your data will be deleted after 30 days.
+  days_ago: 11.5
+- sender_name: Lumen Facilities
+  address: facilities@lumen-facilities.example.test
+  subject: Planned HVAC maintenance this Saturday
+  body: Dear tenants, our team will service the HVAC system on Saturday 24 October between 08:00 and 13:00.
+    Expect short interruptions to air conditioning on floors 3–5. No action is required.
+  days_ago: 2.8
+- sender_name: Ananya Rao
+  address: ananya.rao@northwind.example.test
+  subject: 'Re: onboarding feedback survey'
+  body: Thanks for filling in the survey, Dana. The main themes were slow laptop setup and unclear access
+    requests. We're drafting fixes and will share a summary at the all-hands.
+  days_ago: 12.2
+- sender_name: Ardent Freight
+  address: dispatch@ardent-freight.example.test
+  subject: Pallet pickup confirmed for 28 October
+  body: Pickup of 6 pallets (ref AF-55102) from your Bengaluru warehouse is confirmed for 28 October between
+    13:00 and 15:00. Driver will call 30 minutes before arrival.
+  days_ago: 1.9
+- sender_name: Maple & Finch Catering
+  address: events@maple-finch-catering.example.test
+  subject: Quote for 40 guests – team offsite lunch
+  body: Hi Dana, thanks for the enquiry. For 40 guests on 12 November we can offer a vegetarian-friendly
+    buffet at INR 650 per head, including service. The quote is valid for 10 days.
+  days_ago: 5.9
+- sender_name: Felix Osei
+  address: felix.osei@northwind.example.test
+  subject: Can you review my expense report?
+  body: Hi Dana, I submitted my October expense report (EXP-4417, INR 18,240 for the Mumbai trip). It
+    needs your approval before the finance cutoff on the 28th. No rush before then!
+  days_ago: 1.2
+- sender_name: Quanta Print Works
+  address: sales@quanta-print.example.test
+  subject: 'Proof ready: Atlas leaflet v2'
+  body: The print proof for the Atlas leaflet (v2, A5, 4/4) is ready. Please check bleed and colours and
+    reply 'approved' or send corrections by Thursday so we can keep the delivery date.
+  days_ago: 3.1
+- sender_name: Isha Kapoor
+  address: isha.kapoor@northwind.example.test
+  subject: Stand-up moved to 09:45 on Fridays
+  body: 'Quick note: from next week our Friday stand-up shifts 15 minutes later to 09:45 because of the
+    early dentist schedule for a few folks. Calendar invites have been updated.'
+  days_ago: 6.6
+- sender_name: Cobalt Cloud Services
+  address: billing-alerts@cobalt-cloud.example.test
+  subject: 'Usage alert: you''ve used 80% of your monthly credit'
+  body: Your Cobalt Cloud account has used 80% of the USD 5,000 monthly commitment as of 21 October. At
+    current usage you will exceed it by around 25 October. Review usage in the console.
+  days_ago: 1.0
+- sender_name: Theo Banerjee
+  address: theo.banerjee@northwind.example.test
+  subject: Thanks for the intro!
+  body: Thanks for introducing me to the folks at Brightwave. We had a good call; they're sending a proposal
+    next week.
+  days_ago: 14.0
+- sender_name: Sana Gupta
+  address: sana.gupta@northwind.example.test
+  subject: Question about the vendor onboarding checklist
+  body: 'Hi Dana, in step 4 of the vendor onboarding checklist, who signs off on security questionnaires:
+    legal or IT security? I don''t want to stall the Helix paperwork.'
+  days_ago: 4.6
+- sender_name: Brightwave Logistics
+  address: support@brightwave-logistics.example.test
+  subject: 'Re: damaged carton on shipment BW-3310'
+  body: We're sorry about the damaged carton. A replacement carton is on its way and should reach you
+    in 2–3 working days. There's no need to return the damaged one; please just send a photo for our claim.
+  days_ago: 8.9
+- sender_name: Nina Castillo
+  address: nina.castillo@northwind.example.test
+  subject: Slides for Thursday's customer webinar
+  body: Dana, I've put the draft slides in the shared drive under Marketing. Please focus on slides 6–9
+    (the roadmap section), since that's where you're presenting.
+  days_ago: 2.2
+- sender_name: Zenith Packaging
+  address: accounts@zenith-packaging.example.test
+  subject: Statement of account – September
+  body: Please find our statement of account for September. Our records show no outstanding balance. If
+    your records differ, reply with the transaction references.
+  days_ago: 20.0
+- sender_name: Product Weekly
+  address: digest@productweekly.example.test
+  subject: 'Interview: how a 5-person team shipped weekly'
+  body: 'This week: a founder explains how their five-person team moved to weekly releases without burning
+    out — feature flags, trunk-based development and ruthless scope cuts.'
+  days_ago: 8.2
+- sender_name: Marcus Romero
+  address: marcus.romero@northwind.example.test
+  subject: Parking permits for November
+  body: Reminder that November parking permits must be renewed on the facilities portal by the 25th. Unrenewed
+    permits will be released to the waiting list on the 26th.
+  days_ago: 3.9
+- sender_name: Helix Office Supply
+  address: newsletter@helix-office-supply.example.test
+  subject: 'Autumn catalogue: 15% off ergonomic chairs'
+  body: Our autumn catalogue is out. Get 15% off ergonomic chairs and standing desks until 15 November
+    with code AUTUMN15 for corporate accounts.
+  days_ago: 13.1
+- sender_name: Leila Haddad
+  address: leila.haddad@northwind.example.test
+  subject: 'Re: customer interview scheduling'
+  body: I've booked three customer interviews for next Wednesday afternoon (14:00, 15:00, 16:00). I'll
+    send the discussion guide tomorrow. Let me know if you want to join any of them.
+  days_ago: 2.6
+- sender_name: Cobalt Cloud Services
+  address: no-reply@cobalt-cloud.example.test
+  subject: 'Scheduled maintenance: storage API, 30 Oct'
+  body: We will perform maintenance on the storage API on 30 October from 01:00 to 03:00 UTC. You may
+    see elevated latency but no downtime is expected.
+  days_ago: 4.0
+- sender_name: Caleb Fischer
+  address: caleb.fischer@northwind.example.test
+  subject: 'Welcome new joiner: Hana Tanaka'
+  body: 'Please welcome Hana Tanaka, joining the platform team on Monday. Buddy: Owen. If you have spare
+    laptop stickers, send them over!'
+  days_ago: 3.3
+- sender_name: Riverstone Consulting
+  address: projects@riverstone-consulting.example.test
+  subject: Thanks for the call – recap and next steps
+  body: 'Thanks for the call on Tuesday. Recap: (1) you''ll share anonymised export samples, (2) we''ll
+    prototype the timeout fix, (3) next check-in is 29 October.'
+  days_ago: 7.0
+- sender_name: Ritu Chandra
+  address: ritu.chandra@northwind.example.test
+  subject: 'Looking for a reviewer: security policy update'
+  body: 'Could you review the draft security policy update by Wednesday? Main changes: MFA required for
+    all vendors, 90-day access reviews, and new incident-reporting SLAs.'
+  days_ago: 5.0
+- sender_name: Victor Ivanov
+  address: victor.ivanov@northwind.example.test
+  subject: Server room access request – approved
+  body: FYI I approved the server room access request for the two contractors starting 26 October. Access
+    expires automatically after 30 days.
+  days_ago: 9.0
+- sender_name: Maple & Finch Catering
+  address: events@maple-finch-catering.example.test
+  subject: 'Receipt: team lunch on 10 October'
+  body: 'Thank you for dining with us. Receipt for the 10 October team lunch (14 guests): INR 9,800. Paid.'
+  days_ago: 12.0
+- sender_name: Emma Kowalski
+  address: emma.kowalski@northwind.example.test
+  subject: Draft agenda for Q4 planning
+  body: 'Draft agenda for the Q4 planning offsite: 09:30 retrospective on Q3, 11:00 customer themes, 13:30
+    capacity planning, 15:00 priorities vote. Comments welcome by Friday.'
+  days_ago: 2.0
+- sender_name: Foundry Hardware
+  address: support@foundry-hardware.example.test
+  subject: 'Re: warranty claim #W-9120 approved'
+  body: 'Your warranty claim #W-9120 for the faulty rack rail has been approved. A replacement will ship
+    within five working days; no return is required.'
+  days_ago: 10.0
+- sender_name: Dev Chandra
+  address: dev.chandra@northwind.example.test
+  subject: 'Reminder: security awareness training due'
+  body: You have one mandatory course outstanding (Phishing & Social Engineering, 20 minutes). Please
+    complete it by 31 October to stay compliant.
+  days_ago: 6.0
+- sender_name: Orchid Analytics
+  address: support@orchid-analytics.example.test
+  subject: 'Re: your question about CSV export limits'
+  body: CSV exports are limited to 100,000 rows per file on the Team plan. For larger exports, use the
+    scheduled export feature, which splits files automatically.
+  days_ago: 15.0
+- sender_name: Jonas Lindqvist
+  address: jonas.lindqvist@northwind.example.test
+  subject: Offsite venue shortlist
+  body: 'I''ve shortlisted three venues for the December offsite: Lakeview Resort (capacity 60), The Granary
+    (45) and Hillcrest Lodge (80). Sheet linked in the thread; please vote by Monday.'
+  days_ago: 4.8
+- sender_name: Tara Dsouza
+  address: tara.dsouza@northwind.example.test
+  subject: Customer story draft – feedback needed
+  body: I've drafted the customer story for Riverstone. Could you check the quotes and the numbers in
+    the second paragraph? They need to be approved before publishing.
+  days_ago: 2.4
+- sender_name: Lumen Facilities
+  address: facilities@lumen-facilities.example.test
+  subject: Visitor badge policy reminder
+  body: All visitors must be registered at least one hour in advance via the front-desk portal and wear
+    a badge at all times. Contractors need a separate induction.
+  days_ago: 18.0
+- sender_name: Pinecrest Software
+  address: support@pinecrest-software.example.test
+  subject: 'Re: SSO setup question'
+  body: To enable SSO, add our SAML metadata under Settings > Security and map the 'email' attribute.
+    Test with one user first before enforcing it for all.
+  days_ago: 9.2
+- sender_name: Zara Osei
+  address: zara.osei@northwind.example.test
+  subject: Team lunch Friday?
+  body: Thinking of a team lunch this Friday at 13:00 at the new place near the station. Reply if you're
+    in so I can book a table.
+  days_ago: 1.4
+- sender_name: Quanta Print Works
+  address: accounts@quanta-print.example.test
+  subject: 'Receipt: print order QP-7712'
+  body: Thank you. We received your payment of USD 410.00 for print order QP-7712 (500 flyers). It will
+    ship Monday.
+  days_ago: 16.0
+- sender_name: Kabir Patel
+  address: kabir.patel@northwind.example.test
+  subject: Feature flag cleanup – FYI
+  body: I'm removing 12 stale feature flags from the platform this week. All were fully rolled out more
+    than 90 days ago. No behaviour change expected.
+  days_ago: 5.4
+- sender_name: Brightwave Logistics
+  address: ops@brightwave-logistics.example.test
+  subject: 'Delay notice: shipment BW-3355 now due 2 November'
+  body: Due to a customs hold, shipment BW-3355 is delayed and now expected on 2 November. We'll update
+    you if this changes.
+  days_ago: 3.6
+- sender_name: Anika Bergström
+  address: anika.bergstrom@northwind.example.test
+  subject: Board deck – numbers check
+  body: Could you glance at slide 12 of the board deck? I want to be sure the headcount numbers match
+    the HR export before it goes to the board secretary.
+  days_ago: 2.9
+- sender_name: Owen Tanaka
+  address: owen.tanaka@northwind.example.test
+  subject: 'Re: access to the analytics workspace'
+  body: I've added you to the analytics workspace as a viewer. If you need edit access, ask Priya to approve
+    it.
+  days_ago: 8.4
+- sender_name: Helix Office Supply
+  address: support@helix-office-supply.example.test
+  subject: Order HX-O-9981 confirmation
+  body: 'Thanks for your order HX-O-9981: 20 notebooks, 10 whiteboard markers, 4 monitor stands. Estimated
+    delivery: 27 October.'
+  days_ago: 5.5
+- sender_name: Ethan Moreau
+  address: ethan.moreau@northwind.example.test
+  subject: 'Quarterly all-hands: submit questions'
+  body: The all-hands is on 5 November. Submit questions anonymously through the form by the 3rd and we'll
+    answer as many as time allows.
+  days_ago: 6.3
+- sender_name: Farah Nguyen
+  address: farah.nguyen@northwind.example.test
+  subject: Intern project showcase invitation
+  body: Our summer interns present their projects next Thursday at 16:00 in the main hall. Everyone is
+    welcome; there will be snacks.
+  days_ago: 7.1
+- sender_name: Cobalt Cloud Services
+  address: security@cobalt-cloud.example.test
+  subject: 'Security notice: new sign-in from Chennai'
+  body: We noticed a new sign-in to your Cobalt Cloud console from Chennai, India. If this was you, no
+    action is needed. If not, secure your account from the portal. We will never ask for your password
+    by email.
+  days_ago: 0.7
+- sender_name: Meera Iyer
+  address: meera.iyer@northwind.example.test
+  subject: 'Notes: customer advisory board prep'
+  body: 'Notes from prep: CAB agenda is 3 sessions (roadmap, data portability, pricing). We need volunteers
+    to host table discussions — Dana, could you take the pricing one?'
+  days_ago: 3.8
+- sender_name: Riverstone Consulting
+  address: billing@riverstone-consulting.example.test
+  subject: Payment received – thank you
+  body: We've received your payment of USD 6,000 against our September retainer. Thank you for the prompt
+    settlement.
+  days_ago: 19.0
+- sender_name: Noah Romero
+  address: noah.romero@northwind.example.test
+  subject: 'Reminder: update your emergency contact'
+  body: HR asks everyone to confirm their emergency contact details on the portal by the end of the month.
+  days_ago: 10.5
+- sender_name: Ardent Freight
+  address: billing@ardent-freight.example.test
+  subject: Invoice AF-INV-3021 – September freight
+  body: |-
+    Please find invoice AF-INV-3021 for September freight services.
+    Amount due: USD 2,180.00
+    Due date: 2026-10-30
+
+    Ardent Freight Accounts
+  days_ago: 18.5
+- sender_name: Maple & Finch Catering
+  address: billing@maple-finch-catering.example.test
+  subject: Invoice MF-884 – offsite lunch deposit
+  body: |-
+    Invoice MF-884 for the 50% deposit on the offsite lunch.
+    Amount due: INR 13,000
+    Due date: 2026-10-28
+
+    Maple & Finch Accounts
+  days_ago: 24.0
+- sender_name: Quanta Print Works
+  address: billing@quanta-print.example.test
+  subject: Invoice QP-INV-2290 – Atlas leaflets
+  body: |-
+    Invoice QP-INV-2290 for Atlas leaflets (1,000 units).
+    Amount due: USD 640.00
+    Due date: 2026-11-04
+
+    Quanta Accounts
+  days_ago: 9.5

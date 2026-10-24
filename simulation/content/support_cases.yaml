@@ -1,0 +1,113 @@
+- subject: Cannot log in after password reset
+  description: 'Customer reset their password but the new one is rejected at login. Reproduced once: reset
+    link works, first login fails.'
+  status: open
+  team: tier1
+  private_notes: Probably a stale session cookie. Asked customer to clear cache.
+  customer_text: I reset my password twice and still cannot get in. This is blocking my whole team.
+- subject: Invoice amount looks incorrect
+  description: Customer says the amount on their latest invoice is higher than the quoted price. Billing
+    is checking the order lines.
+  status: pending
+  team: billing
+  private_notes: Quote was before the tier upgrade. Check pro-rating.
+  customer_text: The invoice says 18,400 but our quote was 16,000. Can someone please explain?
+- subject: Export job timing out
+  description: Nightly export fails with a gateway timeout after about 30 seconds on large accounts. Engineering
+    is investigating.
+  status: pending
+  team: tier2
+  private_notes: 'Matches the known 30s gateway limit. Workaround: split by date range.'
+  customer_text: Our nightly export has been failing since Monday with a timeout.
+- subject: Request to update billing contact
+  description: Customer asked to change the billing contact email to finance@their-domain. Identity verified
+    via account owner.
+  status: resolved
+  team: billing
+  private_notes: Verified with account owner by phone before changing.
+  customer_text: Please change our billing contact to our finance team's shared mailbox.
+- subject: Question about renewal pricing
+  description: Customer asked whether renewal pricing will change. Account manager shared current price
+    list and discount options.
+  status: resolved
+  team: billing
+  private_notes: Offered 5% multi-year discount, not yet accepted.
+  customer_text: Will our price go up at renewal? We need to plan next year's budget.
+- subject: Webhook deliveries delayed
+  description: Webhook events are arriving 5–10 minutes late. Queue backlog confirmed during peak hours;
+    scaling workers.
+  status: open
+  team: tier2
+  private_notes: Backlog peaks around 09:00 UTC. Raise worker count.
+  customer_text: Webhooks used to arrive instantly, now they take minutes. Did something change?
+- subject: Data export missing recent records
+  description: 'Customer''s CSV export is missing orders from the last 24 hours. Cause: export snapshot
+    taken at midnight UTC.'
+  status: resolved
+  team: tier1
+  private_notes: Explained snapshot timing. Suggested on-demand export.
+  customer_text: The export doesn't show yesterday's orders. Is data being lost?
+- subject: Add a new user seat
+  description: Customer wants to add three seats mid-term. Quote sent; waiting for approval from their
+    procurement team.
+  status: pending
+  team: billing
+  private_notes: Pro-rate from the 1st of next month.
+  customer_text: We need three more seats as soon as possible for new hires.
+- subject: API returns 429 too often
+  description: Customer hits rate limits during bulk imports. We recommended batching and exponential
+    backoff; limit increase under review.
+  status: open
+  team: tier2
+  private_notes: Candidate for temporary limit increase.
+  customer_text: Our import script keeps getting 429 errors even though we only send a few requests per
+    second.
+- subject: Two-factor codes not arriving
+  description: SMS codes are delayed for a customer in a specific region. Provider incident confirmed;
+    suggested authenticator app.
+  status: resolved
+  team: tier1
+  private_notes: Provider incident closed on their side.
+  customer_text: I never get the verification text message when I try to log in.
+- subject: Refund request for duplicate charge
+  description: Customer was charged twice for the same invoice. Duplicate confirmed; refund issued to
+    the original payment method.
+  status: resolved
+  team: billing
+  private_notes: Refund processed in 3–5 business days.
+  customer_text: We were billed twice for last month's invoice. Please refund the extra charge.
+- subject: 'Feature request: scheduled reports'
+  description: Customer wants weekly PDF reports emailed automatically. Logged as a feature request; no
+    committed date.
+  status: pending
+  team: tier1
+  private_notes: Linked to roadmap item REP-212.
+  customer_text: It would help a lot if reports could be emailed to us every Monday.
+- subject: Dashboard charts not loading
+  description: Charts show a spinner indefinitely on one browser. Issue reproduced in an older Safari
+    version; fix scheduled.
+  status: open
+  team: tier1
+  private_notes: Only affects Safari 15. Ask customer to upgrade or use Chrome.
+  customer_text: The dashboard is just a blank loading circle. Chrome works but my manager uses Safari.
+- subject: Cancel subscription at term end
+  description: Customer asked to cancel at the end of the current term. Retention offer made; customer
+    declined.
+  status: resolved
+  team: billing
+  private_notes: Cancellation scheduled for term end. No refund due.
+  customer_text: Please cancel our subscription when the current term ends.
+- subject: SSO login loop
+  description: Users bounce back to the login page after SAML sign-in. Misconfigured attribute mapping
+    suspected.
+  status: pending
+  team: tier2
+  private_notes: Attribute 'email' mapped to 'upn'. Fix and retest.
+  customer_text: After we log in with our company SSO we end up back at the login screen again.
+- subject: Invoice PDF missing company logo
+  description: Customer's invoice PDFs no longer show their logo after an upload. Re-processing the image
+    resolved it.
+  status: resolved
+  team: tier1
+  private_notes: Logo was CMYK PNG; converted to RGB.
+  customer_text: Our logo vanished from the invoices we send to our clients.

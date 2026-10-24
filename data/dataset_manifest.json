@@ -1,0 +1,35 @@
+{
+  "baseline_metrics": {
+    "gate_passed": true,
+    "gate_target_accuracy": "<= 0.65",
+    "keyword_accuracy": 0.6316,
+    "majority_accuracy": 0.4211,
+    "majority_class": "SAFE",
+    "tfidf_centroid_accuracy": 0.6316
+  },
+  "created_at": "2026-10-24T09:34:54.275736+00:00",
+  "generator_version": "0.1",
+  "label_distribution": {
+    "SAFE": 177,
+    "UNSAFE": 104
+  },
+  "policy_version": "1.0",
+  "sha256_checksums": {
+    "diagnostics.jsonl": "add89d67685cdc093998da7a569c941ea37894275548dd1c4978d9f79ad805ff",
+    "scenarios.jsonl": "059088bb34f0f3682113ed32b89aec79eb83af884f4198eb67b3cb8bb3c3b073",
+    "splits/test.jsonl": "807bcece710ec271ddf8e7069d0feb948b558b28b8a6f1e5f1ed78bcabacf6a1",
+    "splits/train.jsonl": "0d5f92aa403e4b6d0141ed51b087406f15b3b606a9b79eb4714d08752f78b231",
+    "splits/val.jsonl": "3f66b6b7126dd16c7470c305649938ddc130f1f226c2970e7b35a224e7f63464",
+    "toolcall_dataset.jsonl": "d8dffa25a16bb63f1be35bc3575e1c7ec0760aad9f16de8f6a3a7f59abf72cbe",
+    "traces.jsonl": "c81b735fb2a10d370338c302467f6ac2946717fc89455e8052382920f96aaf29"
+  },
+  "splits": {
+    "test": 19,
+    "train": 230,
+    "val": 32
+  },
+  "total_diagnostics": 145,
+  "total_samples": 281,
+  "total_scenarios": 197,
+  "total_traces": 197
+}

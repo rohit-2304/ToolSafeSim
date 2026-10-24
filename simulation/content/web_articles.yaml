@@ -1,0 +1,162 @@
+- topic: supply chain visibility
+  title: Why supply chain visibility still fails at the last mile
+  domain: newsdesk.example
+  author: J. Kapoor
+  published: '2026-04-22'
+  body: Most shippers can see containers until they reach the port, then lose them. A 2026 industry survey
+    of 210 logistics firms found that 64% rely on manual carrier emails for last-mile status. Firms that
+    adopted shared event standards cut 'where is my order' calls by about a third. The main barrier is
+    not technology but getting small carriers to share data.
+- topic: container orchestration
+  title: 'Container orchestration at small scale: do you really need Kubernetes?'
+  domain: devhub.example
+  author: M. Chandra
+  published: '2026-03-09'
+  body: For teams running fewer than ten services, managed container platforms often beat self-run clusters
+    on cost and on-call load. The author compares three setups and finds that a single managed service
+    saved roughly 0.4 FTE of operations work. Kubernetes starts to pay off with multi-tenant workloads,
+    custom networking or strict scheduling needs.
+- topic: carbon accounting
+  title: A practical guide to carbon accounting for mid-sized companies
+  domain: workresearch.example
+  author: E. Lindqvist
+  published: '2026-05-18'
+  body: Scope 1 and 2 emissions are straightforward to measure from utility bills and fuel receipts. Scope
+    3 usually accounts for 70–90% of the footprint and is estimated from spend data. Start with the three
+    largest supplier categories rather than a full inventory, and document assumptions so year-on-year
+    comparisons stay valid.
+- topic: zero trust networking
+  title: 'Zero trust networking: lessons from three migrations'
+  domain: techledger.example
+  author: Staff
+  published: '2026-02-27'
+  body: 'Teams that moved from VPN-centred access to identity-aware proxies reported fewer lateral-movement
+    incidents but a rocky first quarter. Legacy applications without modern auth were the main blocker.
+    The common advice: inventory applications first, migrate low-risk apps early, and keep a break-glass
+    path.'
+- topic: edge computing
+  title: 'Edge computing in retail: latency numbers that matter'
+  domain: datainfra.example
+  author: P. Mehta
+  published: '2026-06-12'
+  body: 'Moving image inference to in-store devices reduced checkout-camera latency from about 380 ms
+    to 45 ms in one pilot. The trade-off was fleet management: updating 1,200 devices needed staged rollouts
+    and rollback tooling. Bandwidth savings were smaller than expected because telemetry still flows to
+    the cloud.'
+- topic: digital twins
+  title: 'Digital twins for factories: what actually delivers value'
+  domain: techledger.example
+  author: M. Fischer
+  published: '2026-01-15'
+  body: 'Plant managers report the best returns from narrow twins of single production lines used for
+    scheduling, not whole-factory models. Data quality is the usual limit: sensors drift and timestamps
+    misalign. Projects that began with one measurable KPI, such as changeover time, were more likely to
+    reach production.'
+- topic: open source licensing
+  title: 'Open source licensing in 2026: the changes companies should know'
+  domain: devhub.example
+  author: T. Osei
+  published: '2026-07-03'
+  body: Several infrastructure projects have moved from permissive licences to source-available terms,
+    prompting forks. Legal teams should track licence changes in dependencies, especially for network-service
+    use. A software bill of materials makes this audit manageable.
+- topic: observability
+  title: Observability costs are rising; here's how teams are cutting them
+  domain: datainfra.example
+  author: J. Kapoor
+  published: '2026-05-02'
+  body: Telemetry volume often grows faster than traffic. Teams report saving 30–50% by sampling traces,
+    dropping high-cardinality labels and moving cold logs to cheaper storage. Cutting without a retention
+    policy led to gaps during incident reviews.
+- topic: data contracts
+  title: 'Data contracts: preventing breaking schema changes'
+  domain: datainfra.example
+  author: P. Mehta
+  published: '2026-03-24'
+  body: A data contract is an agreed schema and quality guarantee between a data producer and its consumers.
+    In the author's team, contracts enforced in CI cut downstream pipeline breakages from about six a
+    month to one. Contracts work best when owned by the producing team.
+- topic: synthetic data
+  title: 'Synthetic data for testing: when it helps and when it misleads'
+  domain: workresearch.example
+  author: N. Rao
+  published: '2026-04-04'
+  body: Synthetic datasets help with privacy and edge-case coverage, but models trained only on them can
+    inherit the generator's biases. A common mitigation is to evaluate on a small set of real, held-out
+    examples. Fidelity metrics alone do not predict downstream accuracy.
+- topic: feature stores
+  title: Do you need a feature store?
+  domain: datainfra.example
+  author: M. Chandra
+  published: '2026-06-30'
+  body: Feature stores shine when many models reuse the same features and when training/serving skew has
+    been a problem. For a handful of models, a shared library and a table are often enough. Operational
+    cost is the hidden item.
+- topic: workflow orchestration
+  title: 'Workflow orchestration tools compared: Airflow-style vs event-driven'
+  domain: devhub.example
+  author: C. Moreau
+  published: '2026-02-11'
+  body: Scheduler-centric tools make dependency graphs explicit and are easy to monitor; event-driven
+    systems react faster but are harder to debug. The author recommends starting with a scheduler and
+    adding events only where latency matters.
+- topic: model quantization
+  title: 'Model quantization: 4-bit models in production'
+  domain: techledger.example
+  author: A. Gupta
+  published: '2026-08-14'
+  body: Moving from 16-bit to 4-bit weights cut memory by about 70% with a 1–3 point accuracy drop on
+    common benchmarks. Latency gains depend on hardware support for low-precision kernels. Always validate
+    on your own tasks.
+- topic: API gateways
+  title: 'API gateways: what to centralise and what to leave alone'
+  domain: devhub.example
+  author: T. Osei
+  published: '2026-05-25'
+  body: Authentication, rate limits and request logging fit well in a gateway. Business logic and heavy
+    transformations do not. Teams that put orchestration logic in the gateway reported slow releases and
+    hard-to-test configs.
+- topic: serverless costs
+  title: 'The real cost of serverless: a 12-month look'
+  domain: newsdesk.example
+  author: Staff
+  published: '2026-09-01'
+  body: A mid-size SaaS moved batch workloads to functions and saw 22% lower bills, but latency-sensitive
+    endpoints cost 40% more than reserved containers. Cold starts and egress charges were the main surprises.
+- topic: privacy engineering
+  title: 'Privacy engineering basics: data minimisation in practice'
+  domain: workresearch.example
+  author: L. Haddad
+  published: '2026-03-18'
+  body: Collect only what a feature needs, set retention at design time, and log access to personal data.
+    Teams that added a privacy review to design docs found issues earlier and cheaper than at launch review.
+- topic: chaos engineering
+  title: Chaos engineering for teams without a platform group
+  domain: devhub.example
+  author: C. Moreau
+  published: '2026-07-20'
+  body: You don't need a dedicated platform team to start. Run a game day, kill a single dependency in
+    staging and write down what you learn. Keep experiments small and reversible.
+- topic: event sourcing
+  title: 'Event sourcing: when the log becomes the database'
+  domain: datainfra.example
+  author: J. Kapoor
+  published: '2026-04-29'
+  body: Event sourcing stores state changes rather than current state, which simplifies audit trails and
+    replay. The costs are schema evolution and query complexity; most teams add read models. It suits
+    finance and logistics better than simple CRUD.
+- topic: graph databases
+  title: 'Graph databases: where they beat relational joins'
+  domain: datainfra.example
+  author: P. Mehta
+  published: '2026-02-06'
+  body: For queries that traverse many relationships, such as fraud rings or recommendation paths, graph
+    databases can be orders of magnitude faster than multi-way joins. For aggregate reporting, relational
+    systems remain the better choice.
+- topic: accessibility testing
+  title: 'Accessibility testing: automated tools catch only about 30%'
+  domain: workresearch.example
+  author: N. Rao
+  published: '2026-06-05'
+  body: Automated scanners find missing alt text and contrast issues but miss keyboard traps and confusing
+    focus order. Combine them with manual keyboard testing and at least one screen-reader pass per release.
